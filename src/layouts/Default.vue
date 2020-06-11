@@ -1,0 +1,209 @@
+<template>
+  <div class="layout">
+    <div class="header-container">
+      <header class="header u-max-page-width">
+        <g-link class="header__link" to="/">
+          Pascal Chorus
+        </g-link>
+        <nav class="nav" :class="{ 'nav--visible': this.isMobileMenuVisible }">
+          <g-link
+            v-for="navItem in navItems"
+            class="nav__link"
+            active-class="nav__link--active"
+            :to="navItem.to"
+            :key="navItem.to"
+            >{{ navItem.name }}</g-link
+          >
+        </nav>
+        <button class="menu-button" type="button" @click="onMenuButtonClick">
+          <svg
+            height="32px"
+            id="hamburger"
+            style="enable-background: new 0 0 32 32;"
+            fill="#E0E0E0"
+            version="1.1"
+            viewBox="0 0 32 32"
+            width="32px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"
+            />
+          </svg>
+        </button>
+      </header>
+    </div>
+
+    <div>
+      <nav class="nav" :class="{ 'nav--visible': this.isMobileMenuVisible }"></nav>
+    </div>
+    <main class="main">
+      <slot />
+    </main>
+    <div class="footer-container">
+      <footer class="footer u-max-page-width">
+        <g-link v-for="footerLink in footerLinks" class="footer__link" :to="footerLink.to" :key="footerLink.to">{{
+          footerLink.name
+        }}</g-link>
+      </footer>
+    </div>
+  </div>
+</template>
+
+<static-query>
+query {
+  metadata {
+    siteName
+  }
+}
+</static-query>
+
+<script>
+export default {
+  data: function () {
+    return {
+      isMobileMenuVisible: false,
+      navItems: [
+        {
+          name: 'Leistungen',
+          to: '/leistungen/',
+        },
+        {
+          name: 'Über mich',
+          to: '/ueber-mich/',
+        },
+        {
+          name: 'Kontakt',
+          to: '/kontakt/',
+        },
+      ],
+      footerLinks: [
+        {
+          name: 'Impressum',
+          to: '/impressum/',
+        },
+        {
+          name: 'Datenschutz',
+          to: '/datenschutz/',
+        },
+      ],
+    };
+  },
+  methods: {
+    onMenuButtonClick: function () {
+      this.isMobileMenuVisible = !this.isMobileMenuVisible;
+    },
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+@import '../assets/variables';
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header-container {
+  background-color: $primary-color;
+}
+
+.header {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__link {
+    font-size: $font-size-xl;
+    color: $font-color-white;
+    font-weight: lighter;
+    text-transform: uppercase;
+    display: block;
+    margin: $space-s 0;
+  }
+}
+
+.nav {
+  display: flex;
+
+  &__link {
+    display: block;
+    padding: $space-s $space-s $space-s - $tabs-border-bottom-width $space-s;
+
+    color: $font-color-white;
+    border-bottom: $tabs-border-bottom-width solid transparent;
+
+    &:hover {
+      color: $font-color-light;
+      border-color: $tabs-border-bottom-color-hover;
+    }
+
+    &:active {
+      color: $font-color-dark;
+    }
+
+    &--active {
+      color: $primary-color;
+      border-color: $tabs-border-bottom-color-selected;
+    }
+  }
+}
+
+.menu-button {
+  display: none;
+  font-size: $size-m;
+  position: absolute;
+  top: $size-m;
+  right: $size-m;
+  padding: 0;
+}
+
+.main {
+  // IE 11 needs all three attributes
+  flex: 1 0 auto;
+}
+
+.footer-container {
+  background-color: $primary-color-dark;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+
+  &__link {
+    display: block;
+    padding: $space-s;
+    color: $font-color-white;
+  }
+}
+
+@media (max-width: $max-width-mobile-landscape) {
+  .menu-button {
+    display: block;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+
+    &--visible {
+      display: block;
+    }
+
+    &__link {
+      padding: $space-s 0;
+      border-bottom: none;
+    }
+  }
+}
+</style>

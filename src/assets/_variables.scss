@@ -1,0 +1,83 @@
+$primary-color: rgb(72, 72, 84);
+$primary-color-light: lighten($primary-color, 8%);
+$primary-color-x-light: lighten($primary-color, 60%);
+$primary-color-xx-light: lighten($primary-color, 64%);
+$primary-color-dark: darken($primary-color, 18%);
+$primary-color-x-dark: darken($primary-color, 60%);
+$primary-color-xx-dark: darken($primary-color, 18%);
+
+$accent-color: #8e8268;
+
+$font-color-default: #333333;
+$font-color-light: lighten(#333333, 16%);
+$font-color-dark: darken(#333333, 10%);
+$font-color-white: #E0E0E0;
+$font-family-default: "Poppins", Arial, sans-serif;
+$font-family-header-default: "Poppins", Arial, sans-serif;
+
+$font-color-secondary: #737373;
+
+$tabs-border-bottom-width: 2px;
+$tabs-border-bottom-color-hover: lighten($font-color-default, 40%);
+$tabs-border-bottom-color-selected: $primary-color;
+
+$background-color-default: #FFFFFF;
+$background-color-alternate: $primary-color-xx-light;
+$background-color-dark: $primary-color-xx-dark;
+
+$border-radius-default: 6px;
+$border-radius-image: $border-radius-default;
+
+$font-size-xs: 8px;
+$font-size-s: 12px;
+$font-size-m: 16px;
+$font-size-l: 24px;
+$font-size-xl: 32px;
+$font-size-xxl: 40px;
+
+$font-size-default: $font-size-m;
+
+$line-height-xs: 12px;
+$line-height-s: 16px;
+$line-height-m: 28px;
+$line-height-l: 32px;
+$line-height-xl: 40px;
+$line-height-xxl: 48px;
+
+$size-xs: 8px;
+$size-s: 16px;
+$size-m: 24px;
+$size-l: 32px;
+$size-xl: 48px;
+$size-xxl: 64px;
+
+$space-xs: 8px;
+$space-s: 16px;
+$space-m: 24px;
+$space-l: 32px;
+$space-xl: 48px;
+$space-xxl: 64px;
+
+$max-content-width: 1024px;
+
+$max-width-mobile: 575.98px;
+$max-width-mobile-landscape: 767.98px;
+$max-width-tablet: 991.98px;
+$max-width-desktop: 1199.98px;
+$min-width-desktop-large: 1200px;
+
+$button-font-size: $font-size-default;
+$button-border-radius: $border-radius-default;
+$button-padding: $space-xs;
+
+$primary-button-color: #FFFFFF;
+$primary-button-background-color: $primary-color;
+$primary-button-hover-background-color: $primary-color-light;
+$primary-button-active-background-color: $primary-color-dark;
+
+$secondary-button-color: $primary-color;
+$secondary-button-background-color: transparent;
+$secondary-button-hover-background-color: $primary-color-xx-light;
+$secondary-button-active-background-color: $primary-color-x-light;
+
+$input-background-color-default: #F5F5F5;

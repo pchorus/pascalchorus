@@ -1,0 +1,356 @@
+@import 'variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap');
+
+body {
+  font-family: $font-family-default;
+  color: $font-color-default;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-family: $font-family-default;
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $primary-color-light;
+  }
+
+  &:active {
+    color: $primary-color-dark;
+  }
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+li {
+  margin: 0 0 $space-xs 0;
+  list-style-type: none;
+}
+
+.image {
+  width: 420px;
+  border-radius: $border-radius-image;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+  font-size: $button-font-size;
+  border-radius: $button-border-radius;
+  padding: $button-padding;
+
+  &--primary {
+    color: $primary-button-color;
+    background-color: $primary-button-background-color;
+
+    &:hover {
+      color: $primary-button-color;
+      background-color: $primary-button-hover-background-color;
+    }
+    &:active {
+      color: $primary-button-color;
+      background-color: $primary-button-active-background-color;
+    }
+  }
+
+  &--secondary {
+    color: $secondary-button-color;
+    background-color: $secondary-button-background-color;
+
+    &:hover {
+      background-color: $secondary-button-hover-background-color;
+    }
+    &:active {
+      background-color: $secondary-button-active-background-color;
+    }
+  }
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  .button:not(:last-child) {
+    margin-right: $space-s;
+  }
+}
+
+.form-element {
+  margin-bottom: $space-m;
+
+  &__label {
+    font-size: $font-size-default;
+    display: block;
+    color: $font-color-secondary;
+    margin-bottom: $size-xs;
+  }
+
+  &__input {
+    font-family: $font-family-default;
+    font-size: $font-size-default;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: $input-background-color-default;
+    width: 100%;
+    padding: $space-xs;
+    border-radius: $border-radius-default;
+    appearance: none;
+    box-sizing: border-box;
+
+    .submitted &:invalid {
+      border: 1px solid red;
+    }
+
+    .submitted &:invalid + p.form-element__error {
+      display: block;
+      font-size: $font-size-s;
+    }
+  }
+
+  &__error {
+    color: red;
+    display: none;
+    margin: $space-xs 0;
+  }
+}
+
+.description-list {
+  margin: 0;
+
+  &--flex-row {
+    display: flex;
+    justify-content: space-between;
+
+    .description-list__description {
+      margin: 0;
+    }
+
+    @media (max-width: $max-width-mobile-landscape) {
+      display: initial;
+      .description-list__description {
+        margin: 0 0 $space-m 0;
+      }
+    }
+  }
+
+  &--large {
+    .description-list__term {
+      @extend .u-font-m;
+    }
+    .description-list__description {
+      @extend .u-font-l;
+    }
+  }
+
+  &__term {
+    @extend .u-font-s;
+    color: $font-color-secondary;
+    margin: 0;
+  }
+  &__description {
+    @extend .u-font-m;
+    margin: 0 0 $space-m 0;
+  }
+}
+
+.u-font-xs {
+  font-size: $font-size-xs;
+  line-height: $line-height-xs;
+  &--paragraph {
+    margin-bottom: $line-height-xs;
+  }
+}
+
+.u-font-s {
+  font-size: $font-size-s;
+  line-height: $line-height-s;
+  &--paragraph {
+    margin-bottom: $line-height-s;
+  }
+}
+
+.u-font-m {
+  font-size: $font-size-m;
+  line-height: $line-height-m;
+  &--paragraph {
+    margin-bottom: $line-height-m;
+  }
+}
+
+.u-font-l {
+  font-size: $font-size-l;
+  line-height: $line-height-l;
+  &--paragraph {
+    margin-bottom: $line-height-s;
+  }
+}
+
+.u-font-xl {
+  font-size: $font-size-xl;
+  line-height: $line-height-xl;
+  &--paragraph {
+    margin-bottom: $line-height-l;
+  }
+}
+
+.u-font-xxl {
+  font-size: $font-size-xxl;
+  line-height: $line-height-xxl;
+  &--paragraph {
+    margin-bottom: $line-height-l;
+  }
+}
+
+.heading {
+  font-family: $font-family-header-default;
+  font-weight: 600;
+  color: $font-color-default;
+
+  &--xs {
+    @extend .u-font-xs;
+    &-paragraph {
+      @extend .u-font-xs--paragraph;
+    }
+  }
+
+  &--s {
+    @extend .u-font-s;
+    &-paragraph {
+      @extend .u-font-s--paragraph;
+    }
+  }
+
+  &--m {
+    @extend .u-font-m;
+    &-paragraph {
+      @extend .u-font-m--paragraph;
+    }
+  }
+
+  &--l {
+    @extend .u-font-l;
+    &-paragraph {
+      @extend .u-font-l--paragraph;
+    }
+  }
+
+  &--xl {
+    @extend .u-font-xl;
+    &-paragraph {
+      @extend .u-font-xl--paragraph;
+    }
+  }
+
+  &--xxl {
+    @extend .u-font-xxl;
+    &-paragraph {
+      @extend .u-font-xxl--paragraph;
+    }
+  }
+}
+
+.section {
+  padding: $space-xl 0;
+  &--alternate {
+    background-color: $background-color-alternate;
+  }
+}
+
+.u-margin-top {
+  &-xs {
+    margin-top: $space-xs;
+  }
+  &-s {
+    margin-top: $space-s;
+  }
+  &-m {
+    margin-top: $space-m;
+  }
+  &-l {
+    margin-top: $space-l;
+  }
+  &-xl {
+    margin-top: $space-xl;
+  }
+}
+
+.u-margin-bottom {
+  &-xs {
+    margin-bottom: $space-xs;
+  }
+  &-s {
+    margin-bottom: $space-s;
+  }
+  &-m {
+    margin-bottom: $space-m;
+  }
+  &-l {
+    margin-bottom: $space-l;
+  }
+  &-xl {
+    margin-bottom: $space-xl;
+  }
+  &-xxl {
+    margin-bottom: $space-xxl;
+  }
+}
+
+.u-max-page-width {
+  max-width: $max-content-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 $space-m;
+  box-sizing: border-box;
+}
+
+.u-text-columns {
+  display: flex;
+
+  > * {
+    flex: 1 1 0;
+    text-align: justify;
+    &:not(:last-child) {
+      margin-right: $space-xxl;
+    }
+  }
+}
+
+@media (max-width: $max-width-mobile-landscape) {
+  .u-text-columns {
+    flex-direction: column;
+    :not(:last-child) {
+      margin-right: 0;
+      margin-bottom: $space-xl;
+    }
+  }
+}

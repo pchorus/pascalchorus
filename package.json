@@ -1,0 +1,19 @@
+{
+  "name": "pascalchorus",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "prettier": "prettier --write \"./src/**/*.{js,json,ts,vue}\" \"./*.{js,json,ts,vue}\"",
+    "prettier-check": "prettier --check \"./src/**/*.{js,json,ts,vue}\" \"./*.{js,json,ts,vue}\""
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "prettier": "^2.0.5",
+    "sass-loader": "^8.0.2"
+  }
+}
