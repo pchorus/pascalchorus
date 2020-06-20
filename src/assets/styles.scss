@@ -231,10 +231,18 @@ li {
   }
 }
 
+.u-font-color-white {
+  color: $font-color-white;
+}
+
 .heading {
   font-family: $font-family-header-default;
   font-weight: 600;
   color: $font-color-default;
+
+  &--color-white {
+    color: $font-color-white;
+  }
 
   &--xs {
     @extend .u-font-xs;

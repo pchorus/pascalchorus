@@ -7,6 +7,8 @@ $primary-color-x-dark: darken($primary-color, 60%);
 $primary-color-xx-dark: darken($primary-color, 18%);
 
 $accent-color: #8e8268;
+$accent-color-light: lighten($accent-color, 8%);
+$accent-color-dark: darken($accent-color, 18%);
 
 $font-color-default: #333333;
 $font-color-light: lighten(#333333, 16%);
@@ -25,7 +27,9 @@ $background-color-default: #FFFFFF;
 $background-color-alternate: $primary-color-xx-light;
 $background-color-dark: $primary-color-xx-dark;
 
-$border-radius-default: 6px;
+$border-radius-default: 12px;
+$border-radius-small: 6px;
+
 $border-radius-image: $border-radius-default;
 
 $font-size-xs: 8px;
@@ -33,7 +37,7 @@ $font-size-s: 12px;
 $font-size-m: 16px;
 $font-size-l: 24px;
 $font-size-xl: 32px;
-$font-size-xxl: 40px;
+$font-size-xxl: 36px;
 
 $font-size-default: $font-size-m;
 
@@ -58,26 +62,33 @@ $space-l: 32px;
 $space-xl: 48px;
 $space-xxl: 64px;
 
-$max-content-width: 1024px;
+$max-content-width: 1180px;
+$max-hero-image-width: 1440px;
 
-$max-width-mobile: 575.98px;
+$max-width-mobile: 567.98px;
 $max-width-mobile-landscape: 767.98px;
 $max-width-tablet: 991.98px;
 $max-width-desktop: 1199.98px;
 $min-width-desktop-large: 1200px;
 
 $button-font-size: $font-size-default;
-$button-border-radius: $border-radius-default;
+$button-border-radius: $border-radius-small;
 $button-padding: $space-xs;
 
 $primary-button-color: #FFFFFF;
-$primary-button-background-color: $primary-color;
-$primary-button-hover-background-color: $primary-color-light;
-$primary-button-active-background-color: $primary-color-dark;
+$primary-button-background-color: $accent-color;
+$primary-button-hover-background-color: $accent-color-light;
+$primary-button-active-background-color: $accent-color-dark;
 
-$secondary-button-color: $primary-color;
+$secondary-button-color: $accent-color;
 $secondary-button-background-color: transparent;
-$secondary-button-hover-background-color: $primary-color-xx-light;
-$secondary-button-active-background-color: $primary-color-x-light;
+$secondary-button-hover-background-color: $accent-color-light;
+$secondary-button-active-background-color: $accent-color-dark;
+
+$black: #333333;
+$light-gray: #F5F5F5;
+$shadow-default-color: #BBBBBB;
 
 $input-background-color-default: #F5F5F5;
+$background-color-gray: $light-gray;
+$background-color-black: $black;
