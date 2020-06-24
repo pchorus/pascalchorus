@@ -129,22 +129,23 @@ export default {
 
   &__link {
     display: block;
-    padding: $space-s $space-s $space-s - $tabs-border-bottom-width $space-s;
+    padding: $space-xs 0 $space-xs - $tabs-border-bottom-width 0;
+    margin: 0 $space-s;
 
     color: $font-color-white;
     border-bottom: $tabs-border-bottom-width solid transparent;
 
     &:hover {
-      color: $font-color-light;
+      color: $font-color-white-light;
       border-color: $tabs-border-bottom-color-hover;
     }
 
     &:active {
-      color: $font-color-dark;
+      color: $font-color-white-dark;
     }
 
     &--active {
-      color: $primary-color;
+      color: $font-color-white;
       border-color: $tabs-border-bottom-color-selected;
     }
   }

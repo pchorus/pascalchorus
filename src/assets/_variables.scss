@@ -11,17 +11,19 @@ $accent-color-light: lighten($accent-color, 8%);
 $accent-color-dark: darken($accent-color, 18%);
 
 $font-color-default: #333333;
-$font-color-light: lighten(#333333, 16%);
-$font-color-dark: darken(#333333, 10%);
+$font-color-light: lighten($font-color-default, 16%);
+$font-color-dark: darken($font-color-default, 10%);
 $font-color-white: #E0E0E0;
+$font-color-white-light: lighten($font-color-white, 10%);
+$font-color-white-dark: darken($font-color-white, 10%);
 $font-family-default: "Poppins", Arial, sans-serif;
 $font-family-header-default: "Poppins", Arial, sans-serif;
 
 $font-color-secondary: #737373;
 
 $tabs-border-bottom-width: 2px;
-$tabs-border-bottom-color-hover: lighten($font-color-default, 40%);
-$tabs-border-bottom-color-selected: $primary-color;
+$tabs-border-bottom-color-hover: $font-color-white-light;
+$tabs-border-bottom-color-selected: $font-color-white;
 
 $background-color-default: #FFFFFF;
 $background-color-alternate: $primary-color-xx-light;
