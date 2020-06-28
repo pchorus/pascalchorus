@@ -11,15 +11,15 @@ body {
 
 a {
   font-family: $font-family-default;
-  color: $primary-color;
+  color: $accent-color;
   text-decoration: none;
 
   &:hover {
-    color: $primary-color-light;
+    color: $accent-color-light;
   }
 
   &:active {
-    color: $primary-color-dark;
+    color: $accent-color-dark;
   }
 }
 
