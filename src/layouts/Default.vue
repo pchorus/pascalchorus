@@ -15,18 +15,8 @@
             >{{ navItem.name }}</g-link
           >
         </nav>
-        <button
-          class="menu-button"
-          :class="isMobileMenuVisible ? 'menu-button--close' : ''"
-          type="button"
-          @click="onMenuButtonClick"
-        >
-          <img
-            :width="isMobileMenuVisible ? '36px' : '48px'"
-            :height="isMobileMenuVisible ? '36px' : '48px'"
-            :src="isMobileMenuVisible ? '../close.png' : '../menu.png'"
-            alt="Menü"
-          />
+        <button class="menu-button" type="button" @click="onMenuButtonClick">
+          <img class="menu-button__icon" :src="isMobileMenuVisible ? '../close.png' : '../menu.png'" alt="Menü" />
         </button>
       </header>
     </div>
@@ -157,14 +147,12 @@ export default {
   position: absolute;
   top: $size-s;
   right: $size-s;
-  padding: 0;
-  height: 48px;
-  width: 48px;
+  height: $size-l;
+  width: $size-l;
 
-  &--close {
-    padding: 6px 6px 0 0;
-    height: 36px;
-    width: 36px;
+  &__icon {
+    height: $size-l;
+    width: $size-l;
   }
 }
 
@@ -195,6 +183,10 @@ export default {
 
   .header {
     display: block;
+
+    &__link {
+      font-size: $font-size-l;
+    }
   }
 
   .nav {

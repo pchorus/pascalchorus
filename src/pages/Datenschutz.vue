@@ -299,8 +299,14 @@
       <h3 class="adsimple-311189809">Was sind Google Fonts?</h3>
       <p>
         Google Fonts (früher Google Web Fonts) ist ein Verzeichnis mit über 800 Schriftarten, die
-        <a class="adsimple-311189809" href="https://de.wikipedia.org/wiki/Google_LLC?tid=311189809">Google</a> seinen
-        Nutzern kostenlos zu Verfügung stellt.
+        <a
+          class="adsimple-311189809"
+          href="https://de.wikipedia.org/wiki/Google_LLC?tid=311189809"
+          target="_blank"
+          rel="noopener"
+          >Google</a
+        >
+        seinen Nutzern kostenlos zu Verfügung stellt.
       </p>
       <p>
         Viele dieser Schriftarten sind unter der SIL Open Font License veröffentlicht, während andere unter
@@ -363,7 +369,11 @@
         Jene Daten, die Google für einen Tag bzw. ein Jahr speichert können nicht einfach gelöscht werden. Die Daten
         werden beim Seitenaufruf automatisch an Google übermittelt. Um diese Daten vorzeitig löschen zu können, müssen
         Sie den Google-Support auf
-        <a class="adsimple-311189809" href="https://support.google.com/?hl=de&amp;tid=311189809"
+        <a
+          class="adsimple-311189809"
+          href="https://support.google.com/?hl=de&amp;tid=311189809"
+          target="_blank"
+          rel="noopener"
           >https://support.google.com/?hl=de&amp;tid=311189809</a
         >
         kontaktieren. Datenspeicherung verhindern Sie in diesem Fall nur, wenn Sie unsere Seite nicht besuchen.
@@ -372,7 +382,11 @@
         Anders als andere Web-Schriften erlaubt uns Google uneingeschränkten Zugriff auf alle Schriftarten. Wir können
         also unlimitiert auf ein Meer an Schriftarten zugreifen und so das Optimum für unsere Webseite rausholen. Mehr
         zu Google Fonts und weiteren Fragen finden Sie auf
-        <a class="adsimple-311189809" href="https://developers.google.com/fonts/faq?tid=311189809"
+        <a
+          class="adsimple-311189809"
+          href="https://developers.google.com/fonts/faq?tid=311189809"
+          target="_blank"
+          rel="noopener"
           >https://developers.google.com/<wbr />fonts/<wbr />faq?tid=311189809</a
         >. Dort geht zwar Google auf datenschutzrelevante Angelegenheiten ein, doch wirklich detaillierte Informationen
         über Datenspeicherung sind nicht enthalten. Es ist relativ schwierig, von Google wirklich präzise Informationen
@@ -380,7 +394,11 @@
       </p>
       <p>
         Welche Daten grundsätzlich von Google erfasst werden und wofür diese Daten verwendet werden, können Sie auch auf
-        <a class="adsimple-311189809" href="https://policies.google.com/privacy?hl=de&amp;tid=311189809"
+        <a
+          class="adsimple-311189809"
+          href="https://policies.google.com/privacy?hl=de&amp;tid=311189809"
+          target="_blank"
+          rel="noopener"
           >https://www.google.com/<wbr />intl/<wbr />de/<wbr />policies/<wbr />privacy/</a
         >
         nachlesen.
@@ -748,7 +766,7 @@
       <p>
         Sie können die Nutzung der Aktivitäten und Informationen Ihres Google Kontos unter “Einstellungen für Werbung”
         auf
-        <a class="adsimple-311189809" href="https://adssettings.google.com/authenticated"
+        <a class="adsimple-311189809" href="https://adssettings.google.com/authenticated" target="_blank" rel="noopener"
           >https://adssettings.google.com/<wbr />authenticated</a
         >
         per Checkbox beenden.
@@ -825,12 +843,12 @@
           title="Datenschutz Generator Deutschland"
           href="https://www.adsimple.de/datenschutz-generator/"
           target="_blank"
-          rel="follow"
+          rel="noopener"
           style="text-decoration: none;"
           >Datenschutz Generator</a
         >
         von AdSimple in Kooperation mit
-        <a href="https://www.justmed.de" target="_blank" rel="follow" title="">justmed.de</a>
+        <a href="https://www.justmed.de" target="_blank" rel="noopener" title="">justmed.de</a>
       </p>
     </div>
   </Layout>

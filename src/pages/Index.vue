@@ -36,7 +36,7 @@
         </p>
         <g-link class="button button--primary" to="/kontakt/">kostenlose Anfrage</g-link>
       </div>
-      <img class="profile__avatar" :src="'../profilfoto.jpg'" />
+      <img class="profile__avatar" alt="Profilbild von Pascal Chorus" :src="'../profilfoto.jpg'" />
     </section>
   </Layout>
 </template>
