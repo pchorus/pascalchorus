@@ -54,6 +54,10 @@ li {
   list-style-type: none;
 }
 
+strong {
+  font-weight: 600;
+}
+
 .image {
   width: 420px;
   border-radius: $border-radius-image;
@@ -350,6 +354,38 @@ li {
     &:not(:last-child) {
       margin-right: $space-xxl;
     }
+  }
+}
+
+.text-block {
+  h1 {
+    @extend .heading;
+    @extend .heading--xxl;
+    @extend .heading--xxl-paragraph;
+    @extend .u-margin-top-l;
+  }
+
+  h2 {
+    @extend .heading;
+    @extend .heading--l;
+    @extend .heading--l-paragraph;
+  }
+
+  h3 {
+    @extend .heading;
+    @extend .heading--m;
+  }
+
+  p {
+    @extend .u-font-m;
+    @extend .u-font-m--paragraph;
+  }
+
+  .u-font-s {
+    @extend .u-font-s;
+  }
+  .u-font-s--paragraph {
+    @extend .u-font-s--paragraph;
   }
 }
 
