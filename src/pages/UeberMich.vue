@@ -8,25 +8,30 @@
         <div class="profile">
           <div class="profile__text">
             <p class="u-font-m u-font-m--paragraph">
-              Hi, ich bin Pascal Chorus. Ich bin 35 Jahre alt und seit rund 15 Jahren bin ich als Software-Entwickler
-              tätig.
+              Hi, mein Name ist Pascal Chorus. Ich bin 35 Jahre alt und seit rund 15 Jahren bin ich als
+              Software-Entwickler tätig. Ich lebe in Herzogenrath in der StädteRegion Aachen und arbeite in Köln.
             </p>
             <p class="u-font-m u-font-m--paragraph">
-              Den Einstieg in die Entwicklung habe ich im Microsoft-Umfeld gehabt. Jahrelang habe ich in C++
-              objektorientierten Code zur Erstellung von Unternehmenssoftware für Windows erstellt.
+              Mein Einstieg in die Entwicklung begann 2005 bei der Inform GmbH. Dort habe ich jahrelang
+              objektorientierten Code in C++ zur Implementierung von Unternehmenssoftware für Windows geschrieben.
             </p>
             <p class="u-font-m u-font-m--paragraph">
-              Seit mehr als zehn Jahren liegt mein Fokus auf Web-Entwicklung. So habe ich zunächst als
+              Seit mehr als zehn Jahren liegt mein Fokus auf der Web-Entwicklung. So habe ich zunächst als
               Fullstack-Entwickler an verschiedenen Projekten gearbeitet, in denen das Backend in Java und C++ mit
               Anbindung an Microsoft SQL Server-Datenbanken und das Frontend mit jQuery oder AngularJS entwickelt
               wurden.
             </p>
             <p class="u-font-m u-font-m--paragraph">
-              Seit 2017 liegt mein Fokus auf der Frontend-Entwicklung mit Angular. Darüber hinaus implementiere ich
-              kleinere Anpassungen im Backend mit Python und PostgreSQL.
+              Seit 2017 ist der Schwerpunkt meiner Arbeit die Frontend-Entwicklung mit Angular. Darüber hinaus
+              implementiere ich kleinere Anpassungen im Backend mit Python und PostgreSQL.
+            </p>
+            <p class="u-font-m u-font-m--paragraph">
+              In meiner Freizeit erstelle ich zudem Webseiten mit Vue.js und Gridsome.
             </p>
             <p class="u-font-m">
-              In meiner Freizeit erstelle ich zudem Webseiten mit Vue.js und Gridsome.
+              Ich besuche regelmäßig Konferenzen, wie z.B. die AngularConnect in London oder die Angular Days und
+              JavaScript Days in Berlin oder München. Zusätzlich halte ich mich durch Online-Ressourcen wie Blog-Posts
+              und Konferenz-Vorträgen stets auf dem Laufenden.
             </p>
           </div>
           <img class="profile__avatar" alt="Profilbild von Pascal Chorus" :src="'../profilfoto.jpg'" />
@@ -48,7 +53,9 @@
             </div>
             <div>
               <dt class="description-list__term">Backend</dt>
-              <dd class="description-list__description">Java, Node.js, PostgreSQL, Microsoft SQL Server</dd>
+              <dd class="description-list__description">
+                Java, Node.js, Apollo GraphQL, PostgreSQL, Microsoft SQL Server
+              </dd>
             </div>
             <div>
               <dt class="description-list__term">Hosting</dt>
@@ -75,7 +82,7 @@
                 deutsch Muttersprache
               </dd>
               <dd class="description-list__description">
-                englisch gute Kenntnisse
+                englisch sehr gute Kenntnisse
               </dd>
             </div>
           </dl>
