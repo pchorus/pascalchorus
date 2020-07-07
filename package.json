@@ -9,7 +9,8 @@
     "prettier-check": "prettier --check \"./src/**/*.{js,json,ts,vue}\" \"./*.{js,json,ts,vue}\""
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "vue-gtag": "^1.7.0"
   },
   "devDependencies": {
     "node-sass": "^4.14.1",
