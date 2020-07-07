@@ -29,9 +29,12 @@
     </main>
     <div class="footer-container">
       <footer class="footer u-max-page-width">
-        <g-link v-for="footerLink in footerLinks" class="footer__link" :to="footerLink.to" :key="footerLink.to">{{
-          footerLink.name
-        }}</g-link>
+        <social-media-links class="footer__social" />
+        <div class="footer__links">
+          <g-link v-for="footerLink in footerLinks" class="footer__link" :to="footerLink.to" :key="footerLink.to">{{
+            footerLink.name
+          }}</g-link>
+        </div>
       </footer>
     </div>
   </div>
@@ -46,7 +49,10 @@ query {
 </static-query>
 
 <script>
+import SocialMediaLinks from '../components/SocialMediaLinks';
+
 export default {
+  components: { SocialMediaLinks },
   data: function () {
     return {
       isMobileMenuVisible: false,
@@ -167,12 +173,31 @@ export default {
 
 .footer {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
+  flex-wrap: wrap;
+
+  &__social {
+    padding: $space-s;
+  }
+
+  &__links {
+    display: flex;
+  }
 
   &__link {
     display: block;
     padding: $space-s;
     color: $font-color-white;
+
+    &:hover {
+      color: $font-color-white-light;
+      border-color: $tabs-border-bottom-color-hover;
+    }
+
+    &:active {
+      color: $font-color-white-dark;
+    }
   }
 }
 
