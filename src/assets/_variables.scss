@@ -8,6 +8,8 @@ $primary-color-xx-dark: darken($primary-color, 18%);
 
 $accent-color: #7f755d;
 $accent-color-light: lighten($accent-color, 4%);
+$accent-color-x-light: lighten($accent-color, 40%);
+$accent-color-xx-light: lighten($accent-color, 50%);
 $accent-color-dark: darken($accent-color, 8%);
 
 $danger-color: darken(red, 12%);
@@ -86,8 +88,8 @@ $primary-button-active-background-color: $accent-color-dark;
 
 $secondary-button-color: $accent-color;
 $secondary-button-background-color: transparent;
-$secondary-button-hover-background-color: $accent-color-light;
-$secondary-button-active-background-color: $accent-color-dark;
+$secondary-button-hover-background-color: $accent-color-xx-light;
+$secondary-button-active-background-color: $accent-color-x-light;
 
 $black: #333333;
 $light-gray: #F5F5F5;
