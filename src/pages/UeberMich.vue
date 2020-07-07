@@ -47,7 +47,7 @@
           <dl class="description-list">
             <div>
               <dt class="description-list__term">Frontend</dt>
-              <dd class="description-list__description">HMTL, CSS, SASS, JavaScript, TypeScript</dd>
+              <dd class="description-list__description">HMTL, CSS, SASS, JavaScript, TypeScript, RxJS</dd>
               <dd class="description-list__description">AngularJS, Angular, Vue, Gridsome, Node.js, NPM</dd>
               <dd class="description-list__description">Angular CLI, ESLint, TSLint, Karma, Cypress</dd>
             </div>
@@ -123,6 +123,14 @@
     </div>
   </Layout>
 </template>
+
+<script>
+export default {
+  metaInfo: {
+    title: 'Über mich',
+  },
+};
+</script>
 
 <style lang="scss" scoped>
 @import '../assets/variables';

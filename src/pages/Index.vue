@@ -94,6 +94,7 @@ export default {
   max-width: $max-hero-image-width;
   margin: 0 auto;
   height: 420px;
+  box-sizing: border-box;
 
   > * {
     width: 40%;

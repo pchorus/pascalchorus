@@ -853,3 +853,11 @@
     </div>
   </Layout>
 </template>
+
+<script>
+export default {
+  metaInfo: {
+    title: 'Datenschutz',
+  },
+};
+</script>
