@@ -22,9 +22,4 @@ export default function (Vue, { router, head, isClient }) {
       integrations: [new VueIntegration({ Vue, attachProps: true })],
     });
   }
-
-  head.meta.push({
-    name: 'robots',
-    content: 'noindex',
-  });
 }
