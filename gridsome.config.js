@@ -8,5 +8,9 @@ module.exports = {
   siteName: 'Pascal Chorus Webentwicklung',
   siteUrl: 'https://pascalchorus.de',
   siteDescription: 'Pascal Chorus - Webentwicklung',
-  plugins: [],
+  plugins: [
+    {
+      use: '@gridsome/plugin-sitemap',
+    },
+  ],
 };
