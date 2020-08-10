@@ -36,7 +36,7 @@
         </p>
         <g-link class="button button--primary" to="/kontakt/">kostenlose Anfrage</g-link>
       </div>
-      <img class="profile__avatar" alt="Profilbild von Pascal Chorus" :src="'../profilfoto.jpg'" />
+      <img class="profile__avatar" alt="Profilbild von Pascal Chorus" src="@/assets/profil.jpg" />
     </section>
   </Layout>
 </template>
@@ -130,7 +130,7 @@ export default {
 
   &__text {
     flex: 1 1 10px;
-    margin-right: $space-xl;
+    margin-right: $space-xxl;
   }
 
   &__avatar {

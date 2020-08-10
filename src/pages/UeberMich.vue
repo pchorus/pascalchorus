@@ -34,7 +34,7 @@
               und Konferenz-Vorträgen stets auf dem Laufenden.
             </p>
           </div>
-          <img class="profile__avatar" alt="Profilbild von Pascal Chorus" :src="'../profilfoto.jpg'" />
+          <img class="profile__avatar" alt="Portrait von Pascal Chorus" src="@/assets/portrait.jpg" />
         </div>
       </section>
     </div>
@@ -141,13 +141,12 @@ export default {
 
   &__text {
     flex: 1 1 10px;
-    margin-right: $space-xl;
+    margin-right: $space-xxl;
   }
 
   &__avatar {
-    width: 240px;
-    height: 240px;
-    border-radius: 120px;
+    width: 280px;
+    border-radius: $border-radius-image;
   }
 }
 
