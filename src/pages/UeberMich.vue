@@ -125,10 +125,13 @@
 </template>
 
 <script>
+import { getMetaInfo } from '../utils';
+
 export default {
-  metaInfo: {
-    title: 'Über mich',
-  },
+  metaInfo: getMetaInfo(
+    'Über mich',
+    'Hi, mein Name ist Pascal Chorus. Ich bin 35 Jahre alt und seit rund 15 Jahren bin ich als Software-Entwickler tätig. Ich lebe in Herzogenrath in der StädteRegion Aachen und arbeite in Köln.'
+  ),
 };
 </script>
 

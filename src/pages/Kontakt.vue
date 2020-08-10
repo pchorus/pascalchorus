@@ -52,10 +52,10 @@
 </template>
 
 <script>
+import { getMetaInfo } from '../utils';
+
 export default {
-  metaInfo: {
-    title: 'Kontakt',
-  },
+  metaInfo: getMetaInfo('Kontakt', 'Kontakt'),
   methods: {
     onSubmit(event) {
       const isValid = event.target.checkValidity();

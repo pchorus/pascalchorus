@@ -12,9 +12,9 @@
 </template>
 
 <script>
+import { getMetaInfo } from '../utils';
+
 export default {
-  metaInfo: {
-    title: 'Nachricht gesendet',
-  },
+  metaInfo: getMetaInfo('Nachricht gesendet', 'Ihre Nachricht wurde erfolgreich gesendet. Vielen Dank!'),
 };
 </script>
