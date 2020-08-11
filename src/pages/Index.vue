@@ -43,11 +43,13 @@
 
 <script>
 import Card from '../components/Card';
+import { getMetaInfo } from '../utils';
 export default {
   components: { Card },
-  metaInfo: {
-    title: 'Software- und Web-Entwicklung',
-  },
+  metaInfo: getMetaInfo(
+    'Software- und Web-Entwicklung',
+    'Professionelle Software- und Web-Entwicklung: private Webseiten, Internetauftritte für kleine und mittelständische Unternehmen, Individuelle Webanwendungen (Single Page Applications) und Desktopanwendungen.'
+  ),
   data: function () {
     return {
       cards: [

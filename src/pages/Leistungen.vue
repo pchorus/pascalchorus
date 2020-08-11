@@ -215,12 +215,14 @@
 
 <script>
 import ImageWithTitle from '../components/ImageWithTitle';
+import { getMetaInfo } from '../utils';
 
 export default {
   components: { ImageWithTitle },
-  metaInfo: {
-    title: 'Leistungen',
-  },
+  metaInfo: getMetaInfo(
+    'Leistungen',
+    'Auf dieser Seite möchte ich Ihnen vorstellen, welche Leistungen ich bieten kann und was Sie von mir erwarten dürfen.'
+  ),
   data: function () {
     return {
       frontendTechnologies: [

@@ -13,3 +13,21 @@ export function bootstrapGtag() {
     bootstrap();
   }
 }
+
+export function getMetaInfo(title, description) {
+  return {
+    title,
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: description,
+      },
+      {
+        key: 'og:description',
+        name: 'og:description',
+        content: description,
+      },
+    ],
+  };
+}

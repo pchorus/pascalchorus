@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Pascal Chorus Webentwicklung',
+  siteName: 'Pascal Chorus',
   siteUrl: 'https://pascalchorus.de',
   siteDescription: 'Pascal Chorus - Webentwicklung',
   plugins: [

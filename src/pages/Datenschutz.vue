@@ -855,9 +855,9 @@
 </template>
 
 <script>
+import { getMetaInfo } from '../utils';
+
 export default {
-  metaInfo: {
-    title: 'Datenschutz',
-  },
+  metaInfo: getMetaInfo('Datenschutz', 'Hier finden Sie die Datenschutzbestimmungen zu Pascal Chorus Webentwicklung.'),
 };
 </script>

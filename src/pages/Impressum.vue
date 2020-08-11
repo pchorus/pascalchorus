@@ -26,9 +26,9 @@
 </template>
 
 <script>
+import { getMetaInfo } from '../utils';
+
 export default {
-  metaInfo: {
-    title: 'Impressum',
-  },
+  metaInfo: getMetaInfo('Impressum', 'Hier finden Sie das Impressum zu Pascal Chorus Webentwicklung.'),
 };
 </script>

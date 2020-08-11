@@ -6,8 +6,11 @@ import DefaultLayout from '~/layouts/Default.vue';
 import VueGtag from 'vue-gtag';
 import * as Sentry from '@sentry/browser';
 import { Vue as VueIntegration } from '@sentry/integrations';
+import { siteName, siteUrl } from '../gridsome.config';
 
 export default function (Vue, { router, head, isClient }) {
+  const addMetaTag = (name, content) => head.meta.push({ key: name, name, content });
+
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
 
@@ -22,4 +25,15 @@ export default function (Vue, { router, head, isClient }) {
       integrations: [new VueIntegration({ Vue, attachProps: true })],
     });
   }
+
+  head.htmlAttrs = { lang: 'de' };
+
+  addMetaTag('application-name', siteName);
+  addMetaTag('apple-mobile-web-app-title', siteName);
+  addMetaTag('og:type', 'website');
+  addMetaTag('og:title', siteName);
+  addMetaTag('og:url', siteUrl);
+  addMetaTag('og:image', `${siteUrl}/macbook.jpg`);
+  addMetaTag('og:locale', 'de_DE');
+  addMetaTag('twitter:card', 'summary');
 }
