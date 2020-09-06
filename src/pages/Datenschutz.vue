@@ -844,7 +844,7 @@
           href="https://www.adsimple.de/datenschutz-generator/"
           target="_blank"
           rel="noopener"
-          style="text-decoration: none;"
+          style="text-decoration: none"
           >Datenschutz Generator</a
         >
         von AdSimple in Kooperation mit

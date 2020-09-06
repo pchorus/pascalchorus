@@ -1,9 +1,7 @@
 <template>
   <Layout>
     <div class="text-block u-max-page-width">
-      <h1>
-        Impressum
-      </h1>
+      <h1>Impressum</h1>
 
       <p>Angaben gemäß § 5 TMG</p>
 

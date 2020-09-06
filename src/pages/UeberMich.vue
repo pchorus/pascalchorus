@@ -2,9 +2,7 @@
   <Layout>
     <div class="text">
       <section class="u-max-page-width">
-        <h1 class="heading heading--xxl heading--xxl-paragraph">
-          Über mich
-        </h1>
+        <h1 class="heading heading--xxl heading--xxl-paragraph">Über mich</h1>
         <div class="profile">
           <div class="profile__text">
             <p class="u-font-m u-font-m--paragraph">
@@ -59,9 +57,7 @@
             </div>
             <div>
               <dt class="description-list__term">Hosting</dt>
-              <dd class="description-list__description">
-                Amazon Web Services (AWS), Heroku, Netlify, Google Firebase
-              </dd>
+              <dd class="description-list__description">Amazon Web Services (AWS), Heroku, Netlify, Google Firebase</dd>
             </div>
             <div>
               <dt class="description-list__term">Tools</dt>
@@ -72,18 +68,12 @@
             </div>
             <div>
               <dt class="description-list__term">Methodik</dt>
-              <dd class="description-list__description">
-                Agile Softwareentwicklung mit Scrum
-              </dd>
+              <dd class="description-list__description">Agile Softwareentwicklung mit Scrum</dd>
             </div>
             <div>
               <dt class="description-list__term">Sprachen</dt>
-              <dd class="description-list__description">
-                deutsch Muttersprache
-              </dd>
-              <dd class="description-list__description">
-                englisch sehr gute Kenntnisse
-              </dd>
+              <dd class="description-list__description">deutsch Muttersprache</dd>
+              <dd class="description-list__description">englisch sehr gute Kenntnisse</dd>
             </div>
           </dl>
         </section>
