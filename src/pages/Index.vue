@@ -1,9 +1,7 @@
 <template>
   <Layout>
     <div class="heading-container">
-      <h1 class="heading heading--xxl heading--color-white">
-        Professionelle Software- und Web-Entwicklung
-      </h1>
+      <h1 class="heading heading--xxl heading--color-white">Professionelle Software- und Web-Entwicklung</h1>
     </div>
 
     <section class="applications">

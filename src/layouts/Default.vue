@@ -2,9 +2,7 @@
   <div class="layout">
     <div class="header-container">
       <header class="header u-max-page-width">
-        <g-link class="header__link" to="/">
-          Pascal Chorus
-        </g-link>
+        <g-link class="header__link" to="/">Pascal Chorus</g-link>
         <nav class="nav" :class="{ 'nav--visible': this.isMobileMenuVisible }">
           <g-link
             v-for="navItem in navItems"

@@ -2,9 +2,7 @@
   <Layout>
     <div>
       <section class="section">
-        <h1 class="heading heading--xxl heading--xxl-paragraph u-max-page-width">
-          Leistungen
-        </h1>
+        <h1 class="heading heading--xxl heading--xxl-paragraph u-max-page-width">Leistungen</h1>
         <p class="u-font-m u-max-page-width">
           Auf dieser Seite möchte ich Ihnen vorstellen, welche Leistungen ich bieten kann und was Sie von mir erwarten
           dürfen.
@@ -12,17 +10,13 @@
       </section>
 
       <section class="section section--alternate-background">
-        <h2 class="heading heading--l heading--l-paragraph u-max-page-width">
-          Produkte
-        </h2>
+        <h2 class="heading heading--l heading--l-paragraph u-max-page-width">Produkte</h2>
         <p class="u-font-m u-font-m--paragraph u-max-page-width">
           Sie brauchen professionelle Unterstützung beim Entwickeln Ihrer maßgeschneiderten Software? Ich biete Ihnen
           Konzeption, Entwicklung und Wartung folgender Produkte:
         </p>
 
-        <h3 class="heading heading--m heading--m-paragraph u-max-page-width">
-          Webseiten
-        </h3>
+        <h3 class="heading heading--m heading--m-paragraph u-max-page-width">Webseiten</h3>
         <p class="u-font-m u-font-m--paragraph u-max-page-width">
           Ich entwerfe Ihre individuelle Webseite nach aktuellen Maßstäben von Usability und User Experience mit
           moderner Optik. Dabei lege ich Wert auf barrierefreie Webseiten, die allen Menschen zur Verfügung stehen. Sie
@@ -39,9 +33,7 @@
           - Sicherheit durch HTTPS
           - responsive Webdesign: optimiert für Smartphone, Tablet und Desktop
         -->
-        <h3 class="heading heading--m heading--m-paragraph u-max-page-width">
-          Webanwendungen
-        </h3>
+        <h3 class="heading heading--m heading--m-paragraph u-max-page-width">Webanwendungen</h3>
         <p class="u-font-m u-font-m--paragraph u-max-page-width">
           Soll Ihr Internetauftritt mehr als nur statischen Inhalt bieten, kann es sinnvoll sein, eine sogenannte Single
           Page Application (SPA) zu erstellen. SPAs sind Anwendungen, die im Browser laufen und umfangreiche
@@ -66,9 +58,7 @@
           - Serverless Functions oder richtiges Backend, bei Bedarf mit Datenbank
         -->
 
-        <h3 class="heading heading--m heading--m-paragraph u-max-page-width">
-          Desktopanwendungen
-        </h3>
+        <h3 class="heading heading--m heading--m-paragraph u-max-page-width">Desktopanwendungen</h3>
         <p class="u-font-m u-font-m--paragraph u-max-page-width">
           Neben Webanwendungen gibt es weiterhin die klassiche Desktopanwendung. Mit modernen Technologien ist es heute
           möglich, klassische Desktopanwendungen mit Hilfe von Webtechnologien umzusetzen. Dabei profitieren Sie von
@@ -87,17 +77,13 @@
       </section>
 
       <section class="section">
-        <h2 class="heading heading--l heading--l-paragraph u-max-page-width">
-          Software-Entwicklung von A bis Z
-        </h2>
+        <h2 class="heading heading--l heading--l-paragraph u-max-page-width">Software-Entwicklung von A bis Z</h2>
         <p class="u-font-m u-font-m--paragraph u-max-page-width">
           Ob sie eine neue Webseite brauchen oder eine individuelle Software zur Optimierung Ihrer Geschäftsprozesse,
           ich begleite Sie gerne über den gesamten Entwicklungsprozess hinweg.
         </p>
 
-        <h3 class="heading heading--m heading--m-paragraph u-max-page-width">
-          Analyse und Sammlung von Anforderungen
-        </h3>
+        <h3 class="heading heading--m heading--m-paragraph u-max-page-width">Analyse und Sammlung von Anforderungen</h3>
         <p class="u-font-m u-font-m--paragraph u-max-page-width">
           In einem ersten Gespräch erarbeiten wir gemeinsam, welche Fragen Ihre Webseite beantworten, welche
           Problemstellung Ihre Software lösen oder bei welchen Aufgabenstellungen Ihre Software unterstützen soll.
@@ -111,18 +97,14 @@
           gesteckten Ziele erreicht werden können.
         </p>
 
-        <h3 class="heading heading--m heading--m-paragraph u-max-page-width">
-          Umsetzung
-        </h3>
+        <h3 class="heading heading--m heading--m-paragraph u-max-page-width">Umsetzung</h3>
         <p class="u-font-m u-font-m--paragraph u-max-page-width">
           Ist eine gemeinsame Vorstellung der Software erarbeitet und das Zielbild gezeichnet, beginne ich mit der
           Umsetzung. Dabei lege ich in regelmäßigen Abständen Zwischenergebnisse vor, sodass Sie stets den Fortschritt
           im Auge behalten und zeitnah Änderungswünsche adressieren können.
         </p>
 
-        <h3 class="heading heading--m heading--m-paragraph u-max-page-width">
-          Wartung und Datensicherung
-        </h3>
+        <h3 class="heading heading--m heading--m-paragraph u-max-page-width">Wartung und Datensicherung</h3>
         <p class="u-font-m u-max-page-width">
           Nach Fertigstellung und Inbetriebnahme Ihrer Software unterstütze ich gerne, den einwandfreien Betrieb
           sicherzustellen. Dazu gehört eine regelmäßige Aktualisierung aller Software-Komponenten, das Monitoring des
@@ -131,9 +113,7 @@
       </section>
 
       <section class="section section--alternate-background">
-        <h2 class="heading heading--l heading--l-paragraph u-max-page-width">
-          Meine Arbeitsweise
-        </h2>
+        <h2 class="heading heading--l heading--l-paragraph u-max-page-width">Meine Arbeitsweise</h2>
         <p class="u-font-m u-font-m--paragraph u-max-page-width">
           Bei der Entwicklung von Software gibt es ein paar Grundprinzipien, denen ich folge:
         </p>
@@ -159,9 +139,7 @@
       </section>
 
       <section class="section">
-        <h2 class="heading heading--l heading--l-paragraph u-max-page-width">
-          Technologien
-        </h2>
+        <h2 class="heading heading--l heading--l-paragraph u-max-page-width">Technologien</h2>
         <p class="u-font-m u-font-m--paragraph u-max-page-width">
           Zur Umsetzung der Projekte setze ich unter anderem folgende Technologien ein. Sollten Sie Unterstützung mit
           anderen Technologien benötigen, sprechen Sie mich gerne an.

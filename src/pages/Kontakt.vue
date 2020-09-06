@@ -1,9 +1,7 @@
 <template>
   <Layout>
     <div class="u-max-page-width">
-      <h1 class="heading heading--xxl heading--xxl-paragraph u-margin-top-xl">
-        Kontakt
-      </h1>
+      <h1 class="heading heading--xxl heading--xxl-paragraph u-margin-top-xl">Kontakt</h1>
 
       <h2 class="heading heading--xl heading--xl-paragraph">Anschrift</h2>
       <p class="u-font-m u-margin-bottom-xl">
