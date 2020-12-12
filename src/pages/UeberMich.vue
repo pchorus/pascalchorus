@@ -83,7 +83,11 @@
 
           <dl class="description-list">
             <div>
-              <dt class="description-list__term">seit April 2017</dt>
+              <dt class="description-list__term">seit Dezember 2020</dt>
+              <dd class="description-list__description">Team Lead Frontend bei der moneymeets GmbH in Köln</dd>
+            </div>
+            <div>
+              <dt class="description-list__term">April 2017 - November 2020</dt>
               <dd class="description-list__description">Senior Frontend Developer bei der moneymeets GmbH in Köln</dd>
             </div>
             <div>

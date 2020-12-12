@@ -21,8 +21,8 @@
       <div class="profile__text">
         <h2 class="heading heading--xl u-margin-bottom-m">Software-Entwicklung mit Weitblick</h2>
         <p class="u-margin-bottom-m">
-          Mein Name ist Pascal Chorus und ich bin Software- und Web-Entwickler in Aachen. Zur Zeit arbeite ich als
-          Senior Frontend Developer bei der moneymeets GmbH in Köln.
+          Mein Name ist Pascal Chorus und ich bin Software- und Web-Entwickler in Aachen. Zur Zeit arbeite ich als Team
+          Lead Frontend bei der moneymeets GmbH in Köln.
         </p>
         <p class="u-margin-bottom-m">
           Neben meiner hauptberuflichen Tätigkeit betreue ich Software-Projekte verschiedenster Art: von der privaten
