@@ -32,7 +32,7 @@
               und Konferenz-Vorträgen stets auf dem Laufenden.
             </p>
           </div>
-          <img class="profile__avatar" alt="Portrait von Pascal Chorus" src="@/assets/portrait.jpg" />
+          <g-image class="profile__avatar" alt="Portrait von Pascal Chorus" src="@/assets/portrait.jpg" />
         </div>
       </section>
     </div>
