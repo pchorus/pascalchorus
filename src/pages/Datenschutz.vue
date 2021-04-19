@@ -858,6 +858,6 @@
 import { getMetaInfo } from '../utils';
 
 export default {
-  metaInfo: getMetaInfo('Datenschutz', 'Hier finden Sie die Datenschutzbestimmungen zu Pascal Chorus Webentwicklung.'),
+  metaInfo: getMetaInfo('Datenschutz', 'Die Datenschutzbestimmungen zu meiner Homepage.'),
 };
 </script>

@@ -46,8 +46,8 @@ import { getMetaInfo } from '../utils';
 export default {
   components: { Card },
   metaInfo: getMetaInfo(
-    'Software- und Web-Entwicklung',
-    'Professionelle Software- und Web-Entwicklung: private Webseiten, Internetauftritte für kleine und mittelständische Unternehmen, Individuelle Webanwendungen (Single Page Applications) und Desktopanwendungen.'
+    'Professionelle Software- und Web-Entwicklung',
+    'Private Webseiten, Internetauftritte für kleine und mittelständische Unternehmen, individuelle Web-Apps und Desktopanwendungen.'
   ),
   data: function () {
     return {
