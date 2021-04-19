@@ -22,7 +22,6 @@
     <div>
       <nav class="nav" :class="{ 'nav--visible': this.isMobileMenuVisible }"></nav>
     </div>
-    <cookie-policy-modal v-if="isModalVisible" @close="onCookiePolicyModalClose"></cookie-policy-modal>
     <main class="main">
       <slot />
     </main>
@@ -36,6 +35,7 @@
         </div>
       </footer>
     </div>
+    <cookie-policy-modal v-if="isModalVisible" @close="onCookiePolicyModalClose"></cookie-policy-modal>
   </div>
 </template>
 

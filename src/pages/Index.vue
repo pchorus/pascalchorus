@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <div class="heading-container">
+      <g-image class="heading-image" src="@/../static/macbook.jpg"></g-image>
       <h1 class="heading heading--xxl heading--color-white">Professionelle Software- und Web-Entwicklung</h1>
     </div>
 
@@ -34,7 +35,7 @@
         </p>
         <g-link class="button button--primary" to="/kontakt/">kostenlose Anfrage</g-link>
       </div>
-      <img class="profile__avatar" alt="Profilbild von Pascal Chorus" src="@/assets/profil.jpg" />
+      <g-image class="profile__avatar" alt="Profilbild von Pascal Chorus" src="@/assets/profil.jpg" />
     </section>
   </Layout>
 </template>
@@ -45,8 +46,8 @@ import { getMetaInfo } from '../utils';
 export default {
   components: { Card },
   metaInfo: getMetaInfo(
-    'Software- und Web-Entwicklung',
-    'Professionelle Software- und Web-Entwicklung: private Webseiten, Internetauftritte für kleine und mittelständische Unternehmen, Individuelle Webanwendungen (Single Page Applications) und Desktopanwendungen.'
+    'Professionelle Software- und Web-Entwicklung',
+    'Private Webseiten, Internetauftritte für kleine und mittelständische Unternehmen, individuelle Web-Apps und Desktopanwendungen.'
   ),
   data: function () {
     return {
@@ -86,20 +87,28 @@ export default {
 @import '../assets/variables';
 
 .heading-container {
+  position: relative;
   display: flex;
   align-items: center;
   padding-left: $space-xl;
-  background: url('~@/../static/macbook.jpg') center no-repeat;
-  background-size: cover;
   max-width: $max-hero-image-width;
   margin: 0 auto;
-  height: 420px;
+  height: 640px;
   box-sizing: border-box;
 
   > * {
     width: 40%;
     text-shadow: 0 0 10px $black;
   }
+}
+
+.heading-image {
+  position: absolute;
+  object-fit: cover;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .applications {
@@ -143,9 +152,9 @@ export default {
 @media (max-width: $max-width-mobile) {
   .heading-container {
     padding: $space-l;
-    height: auto;
+    height: 380px;
 
-    > * {
+    > .heading {
       width: auto;
     }
   }
@@ -163,6 +172,10 @@ export default {
 }
 
 @media (max-width: $max-width-tablet) {
+  .heading-container {
+    height: 420px;
+  }
+
   .application-cards {
     flex-direction: column;
 
