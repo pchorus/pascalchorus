@@ -58,8 +58,7 @@ export default {
             altText: 'Webseiten',
           },
           title: 'Individuelle Webseiten',
-          text:
-            'Private Webseiten, Internetauftritte für kleine und mittelständische Unternehmen und Content Management Systeme (CMS).',
+          text: 'Private Webseiten, Internetauftritte für kleine und mittelständische Unternehmen und Content Management Systeme (CMS).',
         },
         {
           icon: {
