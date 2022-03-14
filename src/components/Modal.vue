@@ -23,6 +23,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@use 'sass:math';
 @import '../assets/variables.scss';
 
 .modal-backdrop {
@@ -40,7 +41,7 @@ export default {
 .modal {
   display: flex;
   flex-direction: column;
-  max-width: $max-content-width / 2;
+  max-width: math.div($max-content-width, 2);
   overflow-x: auto;
   background: $background-color-default;
   box-shadow: 2px 2px 20px 1px;
