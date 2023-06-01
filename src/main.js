@@ -3,7 +3,6 @@
 
 import '~/assets/styles.scss';
 import DefaultLayout from '~/layouts/Default.vue';
-import VueGtag from 'vue-gtag';
 import * as Sentry from '@sentry/browser';
 import { Vue as VueIntegration } from '@sentry/integrations';
 import { siteName, siteUrl } from '../gridsome.config';
@@ -13,11 +12,6 @@ export default function (Vue, { router, head, isClient }) {
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
-
-  Vue.use(VueGtag, {
-    config: { id: 'UA-171868834-1', params: { anonymize_ip: true } },
-    bootstrap: false,
-  });
 
   if (process.env.NODE_ENV === 'production') {
     Sentry.init({
