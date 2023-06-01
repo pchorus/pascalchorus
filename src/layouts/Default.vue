@@ -35,7 +35,6 @@
         </div>
       </footer>
     </div>
-    <cookie-policy-modal v-if="isModalVisible" @close="onCookiePolicyModalClose"></cookie-policy-modal>
   </div>
 </template>
 
@@ -48,15 +47,12 @@ query {
 </static-query>
 
 <script>
-import CookiePolicyModal from '../components/CookiePolicyModal';
 import SocialMediaLinks from '../components/SocialMediaLinks';
-import { bootstrapGtag, STATISTICS_COOKIES_COOKIE_NAME } from '../utils';
 
 export default {
-  components: { CookiePolicyModal, SocialMediaLinks },
+  components: { SocialMediaLinks },
   data: function () {
     return {
-      isModalVisible: false,
       isMobileMenuVisible: false,
       navItems: [
         {
@@ -84,23 +80,9 @@ export default {
       ],
     };
   },
-  mounted: function () {
-    const localStorageItem = localStorage.getItem(STATISTICS_COOKIES_COOKIE_NAME);
-
-    if (localStorageItem) {
-      bootstrapGtag();
-    } else {
-      this.isModalVisible = true;
-    }
-  },
   methods: {
     onMenuButtonClick: function () {
       this.isMobileMenuVisible = !this.isMobileMenuVisible;
-    },
-    onCookiePolicyModalClose(isStatisticsCookiesAllowed) {
-      this.isModalVisible = false;
-      localStorage.setItem(STATISTICS_COOKIES_COOKIE_NAME, JSON.stringify({ isStatisticsCookiesAllowed }));
-      bootstrapGtag();
     },
   },
 };
