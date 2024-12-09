@@ -8,7 +8,7 @@
       <h2>Betreiber der Webseite</h2>
       <p>
         Pascal Chorus<br />
-        Auf'm Schif 6a<br />
+        Dr.-Norbert-Stassart-Straße 24<br />
         52134 Herzogenrath<br />
         Telefon: 02407 5569408<br />
         Email: <a href="mailto:hey@pascalchorus.de">hey@pascalchorus.de</a>
