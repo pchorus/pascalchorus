@@ -16,7 +16,7 @@
 
       <p class="u-font-m u-margin-bottom-xl">
         Wenn Sie mit mir in Kontakt treten möchten, nutzen Sie bitte das Kontaktformular, senden Sie mir eine Email oder
-        schreiben Sie mir bei <a href="https://twitter.com/pascalchorus" target="_blank" rel="noopener">Twitter</a>.
+        schreiben Sie mir bei <a href="https://x.com/pascalchorus" target="_blank" rel="noopener">X</a>.
       </p>
 
       <form
