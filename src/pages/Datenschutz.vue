@@ -827,13 +827,9 @@
           >
         </li>
         <li class="adsimple-311189809">
-          Twitter Datenschutzrichtlinie:
-          <a
-            class="adsimple-311189809"
-            href="https://twitter.com/de/privacy?tid=311189809"
-            target="_blank"
-            rel="noopener"
-            >https://twitter.com/de/privacy</a
+          X Datenschutzrichtlinie:
+          <a class="adsimple-311189809" href="https://x.com/de/privacy" target="_blank" rel="noopener"
+            >https://x.com/de/privacy</a
           >
         </li>
       </ul>

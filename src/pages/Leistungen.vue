@@ -234,7 +234,7 @@ export default {
         },
         {
           image: {
-            path: '../technologies/angular.svg',
+            path: '../technologies/angular.png',
             altText: 'Angular-Logo',
           },
           title: 'Angular',
@@ -248,10 +248,10 @@ export default {
         },
         {
           image: {
-            path: '../technologies/gridsome.svg',
-            altText: 'Gridsome-Logo',
+            path: '../technologies/nuxt.svg',
+            altText: 'Nuxt-Logo',
           },
-          title: 'Gridsome',
+          title: 'Nuxt',
         },
       ],
       backendTechnologies: [

@@ -6,7 +6,7 @@
       <h2 class="heading heading--xl heading--xl-paragraph">Anschrift</h2>
       <p class="u-font-m u-margin-bottom-xl">
         Pascal Chorus<br />
-        Auf'm Schif 6a<br />
+        Dr.-Norbert-Stassart-Straße 24<br />
         52134 Herzogenrath<br />
         Telefon: 02407 5569408<br />
         Email: <a href="mailto:hey@pascalchorus.de">hey@pascalchorus.de</a>
@@ -16,7 +16,7 @@
 
       <p class="u-font-m u-margin-bottom-xl">
         Wenn Sie mit mir in Kontakt treten möchten, nutzen Sie bitte das Kontaktformular, senden Sie mir eine Email oder
-        schreiben Sie mir bei <a href="https://twitter.com/pascalchorus" target="_blank" rel="noopener">Twitter</a>.
+        schreiben Sie mir bei <a href="https://x.com/pascalchorus" target="_blank" rel="noopener">X</a>.
       </p>
 
       <form

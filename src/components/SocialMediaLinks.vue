@@ -6,8 +6,8 @@
     <a href="https://www.linkedin.com/in/pascal-chorus-6303071a2" target="_blank" rel="noopener"
       ><img class="social-media__icon" :src="'../social/linkedin.svg'" alt="LinkedIn"
     /></a>
-    <a href="https://twitter.com/pascalchorus" target="_blank" rel="noopener"
-      ><img class="social-media__icon social-media__icon--large" :src="'../social/twitter.svg'" alt="Twitter"
+    <a href="https://x.com/pascalchorus" target="_blank" rel="noopener"
+      ><img class="social-media__icon" :src="'../social/x.svg'" alt="X"
     /></a>
     <a href="https://github.com/pchorus" target="_blank" rel="noopener"
       ><img class="social-media__icon" :src="'../social/github.png'" alt="GitHub"
@@ -29,10 +29,6 @@ export default {};
     display: block;
     height: $size-m;
     margin: 0 $space-xs;
-
-    &--large {
-      height: $size-l;
-    }
   }
 }
 </style>
