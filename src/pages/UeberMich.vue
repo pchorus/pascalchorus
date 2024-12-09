@@ -6,7 +6,7 @@
         <div class="profile">
           <div class="profile__text">
             <p class="u-font-m u-font-m--paragraph">
-              Hi, mein Name ist Pascal Chorus. Ich bin 35 Jahre alt und seit rund 15 Jahren bin ich als
+              Hi, mein Name ist Pascal Chorus. Ich bin 40 Jahre alt und seit rund 20 Jahren bin ich als
               Software-Entwickler tätig. Ich lebe in Herzogenrath in der StädteRegion Aachen und arbeite in Köln.
             </p>
             <p class="u-font-m u-font-m--paragraph">
@@ -124,7 +124,7 @@ import { getMetaInfo } from '../utils';
 export default {
   metaInfo: getMetaInfo(
     'Über mich',
-    'Hi, mein Name ist Pascal Chorus. Ich bin 35 Jahre alt und seit rund 15 Jahren bin ich als Software-Entwickler tätig. Ich lebe in Herzogenrath in der StädteRegion Aachen und arbeite in Köln.'
+    'Hi, mein Name ist Pascal Chorus. Ich bin 40 Jahre alt und seit rund 20 Jahren bin ich als Software-Entwickler tätig. Ich lebe in Herzogenrath in der StädteRegion Aachen und arbeite in Köln.'
   ),
 };
 </script>
