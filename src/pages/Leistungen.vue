@@ -234,7 +234,7 @@ export default {
         },
         {
           image: {
-            path: '../technologies/angular.svg',
+            path: '../technologies/angular.png',
             altText: 'Angular-Logo',
           },
           title: 'Angular',
