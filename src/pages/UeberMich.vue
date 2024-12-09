@@ -24,7 +24,7 @@
               implementiere ich kleinere Anpassungen im Backend mit Python und PostgreSQL.
             </p>
             <p class="u-font-m u-font-m--paragraph">
-              In meiner Freizeit erstelle ich zudem Webseiten mit Vue.js und Gridsome.
+              In meiner Freizeit erstelle ich zudem Webseiten mit Vue.js und Nuxt.
             </p>
             <p class="u-font-m">
               Ich besuche regelmäßig Konferenzen, wie z.B. die AngularConnect in London oder die Angular Days und
@@ -46,7 +46,7 @@
             <div>
               <dt class="description-list__term">Frontend</dt>
               <dd class="description-list__description">HMTL, CSS, SASS, JavaScript, TypeScript, RxJS</dd>
-              <dd class="description-list__description">AngularJS, Angular, Vue, Gridsome, Node.js, NPM</dd>
+              <dd class="description-list__description">AngularJS, Angular, Vue, Nuxt, Node.js, NPM</dd>
               <dd class="description-list__description">Angular CLI, ESLint, TSLint, Karma, Cypress</dd>
             </div>
             <div>
